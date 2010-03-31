@@ -1,0 +1,17 @@
+<html>
+    <head>
+	 <title>Bovespa Quotes</title>
+	 <meta name = "viewport" content = "width = device-width">
+	 <meta name = "viewport" content = "initial-scale = 1.0">
+    </head>
+    <body>
+    {% ifequal erro "0" %}
+    	<h2>{{ stock }} = {{ preco }}</h2>
+    {% endifequal %}
+
+    {% ifequal erro "1" %}
+    	<h2>Not found!</h2>    	
+    {% endifequal %}
+	<p>by <a href="http://twitter.com/rzouain">@rzouain</a></p>
+    </body>
+</html>
