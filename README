@@ -4,4 +4,4 @@ URL syntax http://whereveritshosted.com/quote?stock=4digitsstocksymbol
 
 If the stock symbol you enter is invalid you'll get an error.
 
-This script pulls data from http://www.bmfbovespa.com.br/Cotacao-Rapida/ExecutaAcaoCotRapXSL.asp:
+This script pulls data from http://www.bmfbovespa.com.br/Pregao-Online/ExecutaAcaoAjax.asp:
